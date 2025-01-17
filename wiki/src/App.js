@@ -2,6 +2,8 @@ import EstudosComponents from './Components';
 import ComponentComState from './States';
 import CicloDeVida from './CicloDeVida';
 import RenderizacaoCondicional from './RenderizacaoCondicional'
+import Listas from './Listas'
+
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       {/* <EstudosComponents /> */}
       {/* <ComponentComState /> */}
       {/* <CicloDeVida /> */}
-      <RenderizacaoCondicional />
+      {/* <RenderizacaoCondicional /> */}
+      <Listas />
     </div>
   )
 }
