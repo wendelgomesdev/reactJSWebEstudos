@@ -3,7 +3,7 @@ import ComponentComState from './States';
 import CicloDeVida from './CicloDeVida';
 import RenderizacaoCondicional from './RenderizacaoCondicional'
 import Listas from './Listas'
-
+import Formulario from './Fomularios';
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       {/* <ComponentComState /> */}
       {/* <CicloDeVida /> */}
       {/* <RenderizacaoCondicional /> */}
-      <Listas />
+      {/* <Listas /> */}
+      <Formulario />
     </div>
   )
 }
