@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+console.log('teste');
 const Post = function (props) {
     return (
         <div key={props.id}>
