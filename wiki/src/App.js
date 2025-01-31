@@ -4,7 +4,7 @@ import CicloDeVida from './CicloDeVida';
 import RenderizacaoCondicional from './RenderizacaoCondicional'
 import Listas from './Listas'
 import Formulario from './Fomularios';
-
+import FomulariosValidandoCampos from './FomulariosValidandoCampos';
 function App() {
   return (
     <div>
@@ -13,7 +13,8 @@ function App() {
       {/* <CicloDeVida /> */}
       {/* <RenderizacaoCondicional /> */}
       {/* <Listas /> */}
-      <Formulario />
+      {/* <Formulario /> */}
+      <FomulariosValidandoCampos />
     </div>
   )
 }
