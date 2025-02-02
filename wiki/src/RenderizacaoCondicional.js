@@ -37,4 +37,4 @@ class RenderizacaoCondicional extends Component {
     }
 }
 
-export default RenderizacaoCondicional
+export default RenderizacaoCondicional;

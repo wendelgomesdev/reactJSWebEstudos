@@ -58,4 +58,4 @@ class FomulariosValidandoCampos extends Component {
     }
 }
 
-export default FomulariosValidandoCampos
+export default FomulariosValidandoCampos;

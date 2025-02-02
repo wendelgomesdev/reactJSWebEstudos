@@ -5,6 +5,8 @@ import RenderizacaoCondicional from './RenderizacaoCondicional'
 import Listas from './Listas'
 import Formulario from './Fomularios';
 import FomulariosValidandoCampos from './FomulariosValidandoCampos';
+import BiscoitoDaSorte from './BiscoitoDaSorte';
+
 function App() {
   return (
     <div>
@@ -14,7 +16,8 @@ function App() {
       {/* <RenderizacaoCondicional /> */}
       {/* <Listas /> */}
       {/* <Formulario /> */}
-      <FomulariosValidandoCampos />
+      {/* <FomulariosValidandoCampos /> */}
+      <BiscoitoDaSorte />
     </div>
   )
 }
