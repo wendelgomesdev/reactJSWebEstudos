@@ -6,6 +6,8 @@ import Listas from './Listas'
 import Formulario from './Fomularios';
 import FomulariosValidandoCampos from './FomulariosValidandoCampos';
 import BiscoitoDaSorte from './BiscoitoDaSorte';
+import Cronometro from './Cronometro';
+import Hooks from './Hooks';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       {/* <Listas /> */}
       {/* <Formulario /> */}
       {/* <FomulariosValidandoCampos /> */}
-      <BiscoitoDaSorte />
+      {/* <BiscoitoDaSorte /> */}
+      {/* <Cronometro /> */}
+      <Hooks />
     </div>
   )
 }
