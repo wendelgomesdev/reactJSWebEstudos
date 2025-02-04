@@ -5,9 +5,10 @@ import RenderizacaoCondicional from './RenderizacaoCondicional'
 import Listas from './Listas'
 import Formulario from './Fomularios';
 import FomulariosValidandoCampos from './FomulariosValidandoCampos';
-import BiscoitoDaSorte from './BiscoitoDaSorte';
-import Cronometro from './Cronometro';
+// import BiscoitoDaSorte from './BiscoitoDaSorte';
+// import Cronometro from './Cronometro';
 import Hooks from './Hooks';
+import RequisicoesHTTP from './RequisicoesHTTP';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <FomulariosValidandoCampos /> */}
       {/* <BiscoitoDaSorte /> */}
       {/* <Cronometro /> */}
-      <Hooks />
+      {/* <Hooks /> */}
+      <RequisicoesHTTP />
     </div>
   )
 }
