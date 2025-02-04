@@ -8,7 +8,8 @@ import FomulariosValidandoCampos from './FomulariosValidandoCampos';
 // import BiscoitoDaSorte from './BiscoitoDaSorte';
 // import Cronometro from './Cronometro';
 import Hooks from './Hooks';
-import RequisicoesHTTP from './RequisicoesHTTP';
+// import RequisicoesHTTP from './RequisicoesHTTP';
+import Rotas from './Rotas';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <BiscoitoDaSorte /> */}
       {/* <Cronometro /> */}
       {/* <Hooks /> */}
-      <RequisicoesHTTP />
+      {/* <RequisicoesHTTP /> */}
+      <Rotas />
     </div>
   )
 }
