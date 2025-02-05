@@ -10,6 +10,7 @@ import FomulariosValidandoCampos from './FomulariosValidandoCampos';
 import Hooks from './Hooks';
 // import RequisicoesHTTP from './RequisicoesHTTP';
 import Rotas from './Rotas';
+import Header from './components/Header';
 
 function App() {
   return (
