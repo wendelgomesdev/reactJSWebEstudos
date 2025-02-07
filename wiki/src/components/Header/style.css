@@ -7,5 +7,15 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 24px;
+    box-sizing: border-box;
 }
 
+#cabecalho a{
+    color: #fff;
+    font-size: 20px;
+
+}
+
+header a + a {
+    margin-left: 10px;
+}
