@@ -1,9 +1,11 @@
-import Membro from './components/Membro';
+import RoutesApp from './routes';
+import { ToastContainer } from 'react-toastify'
 
 function App() {
   return (
     <div className="App">
-      <Membro nome='Wendel' />
+      <ToastContainer autoClose={3000} />
+      <RoutesApp />
     </div>
   );
 }
